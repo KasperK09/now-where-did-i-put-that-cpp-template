@@ -1,3 +1,6 @@
-#include <string>
+#pragma once
 
-std::string hello();
+#include <string>
+#include <iostream>
+
+int sentence_miner(char character, const char *string);
